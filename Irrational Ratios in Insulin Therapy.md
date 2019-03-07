@@ -14,7 +14,7 @@ $$B(t) = 1 \: U/h​$$
 
 $$ISF(t) = {30 \: mg/dL/U}​$$
 
-$$ICR(t) = 15 \: g/U^{†}​$$
+$$ICR(t) = 15 \: g/U^{*}$$
 
 An individual using these ratios:
 1. Requires one unit of insulin per hour to maintain stable blood glucose values.
@@ -23,7 +23,7 @@ An individual using these ratios:
 
 ---
 
-$$^{†}$$The name 'insulin-to-carbohydrate ratio' implies units of $$U/g​$$. In practice, however, its reciprocal lends itself to more convenient mental math in computing mealtime insulin doses. A person living with diabetes often estimates carbohydrates in multiples of ten or fifteen grams.
+$$^*$$The name 'insulin-to-carbohydrate ratio' implies units of $$U/g$$. In practice, however, its reciprocal lends itself to more convenient mental math in computing mealtime insulin doses. A person living with diabetes often estimates carbohydrates in multiples of ten or fifteen grams.
 
 ## Developing Intuition
 
@@ -41,7 +41,7 @@ $$2) \: \frac{ISF(t)}{ICR(t)} = \frac{30 \: mg/dL/U}{15 \: g/U} = 2 \: mg/dL/g�
 
 Multiplying the basal rate with the insulin sensitivity factor (1) yields a value whose unit indicates an hourly change in blood glucose. Dividing the insulin sensitivity factor by the insulin-to-carbohydrate ratio (2) yields a value whose unit indicates a change in blood glucose per gram of carbohydrate.
 
-Indeed, the units here suffice to tell the story: the first value describes the body's natural production of glucose. It has a name: endogenous glucose production, $$EGP(t)​$$. The second value describes the increase in blood glucose per gram of carbohydrate consumed, henceforth referred to as the carbohydrate sensitivity factor, $$CSF(t)​$$.
+Indeed, the units here suffice to tell the story: the first value describes the body's natural production of glucose. It has a name: endogenous glucose production, $$EGP(t)$$. The second value describes the increase in blood glucose per gram of carbohydrate consumed, henceforth referred to as the carbohydrate sensitivity factor, $$CSF(t)^†$$.
 
 $$EGP(t) = B(t) \times ISF(t)​$$
 
@@ -54,6 +54,10 @@ In context, these values mean the following:
 These ratios describe intuitive physiological processes: the body produces glucose regularly to aid in the prevention of hypoglycemia, and every gram of carbohydrate corresponds to an increase in blood glucose concentration when digested.
 
 Derived from the original set of ratios (basal rate, insulin sensitivity factor, and insulin-to-carbohydrate ratio), this new set of ratios (hourly endogenous glucose production, insulin sensitivity factor, and carbohydrate sensitivity factor) encodes identical information for use in insulin therapy, yet requires only one ratio to describe the body's response to insulin.
+
+---
+
+$$^†$$A reviewing endocrinologist noted that the abbreviation CSF is already present in medical jargon to refer to cerebrospinal fluid. If of concern, the term glucose-to-carbohydrate ratio (GCR) encapsulates the same meaning.
 
 ## Getting Sensitive
 
